@@ -5,4 +5,9 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <!-- 微信sdk https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/Android.html -->
+    <queries>
+        <package android:name="com.tencent.mm" /> 
+    </queries>
 </manifest>
